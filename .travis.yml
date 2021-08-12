@@ -1,0 +1,5 @@
+language: cypress
+install:
+  - make install
+script:
+  - make test
