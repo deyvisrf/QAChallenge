@@ -1,0 +1,29 @@
+{
+  "name": "qachallenge",
+  "version": "1.0.0",
+  "description": "QA Challenge Zé Delivery",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deyvisrf/QAChallenge.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Deyvis Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deyvisrf/QAChallenge/issues"
+  },
+  "homepage": "https://github.com/deyvisrf/QAChallenge#readme",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
+  }
+}
