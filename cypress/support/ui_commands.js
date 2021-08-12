@@ -4,8 +4,7 @@ Cypress.Commands.add('signin', () => {
     cy.visit('/')
 
     cy.get('#onetrust-accept-btn-handler', {timeout: 100000}).click()
-    cy.get('#welcome-button-sign-in').click()
-
+    
     cy.get('#login-mail-input-email').type(Cypress.env('user_name'))
     cy.get('#login-mail-input-password').type(Cypress.env('user_password'))
     cy.get('#login-mail-button-sign-in').click()
@@ -24,7 +23,6 @@ Cypress.Commands.add('signup', () => {
       }
 
       cy.get('#onetrust-accept-btn-handler', {timeout: 100000}).click()
-      cy.get('#welcome-button-sign-in').click()
       cy.get('#create-account-link').click()
 
       cy.get('#signup-form-input-name').type(signup.name)

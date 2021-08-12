@@ -1,5 +1,6 @@
 {
-    "baseUrl": "https://www.ze.delivery/",
+    "baseUrl": "https://www.ze.delivery/conta/entrar",
     "viewportWidth": 1200,
-    "viewportHeight": 760
+    "viewportHeight": 760,
+    "chromeWebSecurity": false
 }
