@@ -34,9 +34,9 @@ Cypress.Commands.add('signup', () => {
 
   Cypress.Commands.add('empty_cart', () => {
       cy.get('#bag-pre-checkout > .css-1fay8q7 > .css-0').click()
-      
-      cy.get('body').then((body) => {
-      if (body.find('Você não possui nenhum produto na sua sacola').length > 0) {
+            
+      cy.get('body').then(($body) => {
+      if ($body.find('Você não possui nenhum produto na sua sacola')) {
         cy.get('#sidebar-header-close-button').click()
     } else {
         cy.get('#product-delete-button').click()
