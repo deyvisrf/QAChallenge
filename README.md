@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.com/deyvisrf/QAChallenge.svg?branch=master)](https://travis-ci.com/deyvisrf/QAChallenge)
+[![Build Status](https://travis-ci.com/deyvisrf/QAChallenge.svg?branch=main)](https://travis-ci.com/deyvisrf/QAChallenge)
 
-# QAChallenge
+# QAChallenge - Zé Delivery
 
-Desafio Zé Delivery. Testes automatizados com a ferramenta Cypress.
+Testes automatizados com a ferramenta Cypress.
 
 ## Dependências
 Acesse a raiz do projeto e execute o comando no terminal
-```
+```bash
 npm install
 ```
 
