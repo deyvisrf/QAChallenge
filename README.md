@@ -4,8 +4,8 @@
 
 Testes automatizados com a ferramenta Cypress.
 
-1. [Respostas](https://github.com/thiagomarquessp/httpartyforall/blob/master/VerbosHttpRest.md);
-2. [Execução dos testes](https://github.com/thiagomarquessp/httpartyforall/blob/master/Configurando_Ambiente.md)
+1. [Respostas](https://github.com/deyvisrf/QAChallenge/blob/main/respostas.md);
+2. [Execução dos testes](https://github.com/deyvisrf/QAChallenge/blob/main/setup.md)
 
 ## Autor
 
