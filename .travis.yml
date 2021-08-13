@@ -1,6 +1,7 @@
-language: cypress
-python:
-  - 4.8.0
+language: node_js
+
+node_js:
+  - 10.8
 install:
   - make install
 script:
