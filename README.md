@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/deyvisrf/QAChallenge.svg?branch=main)](https://travis-ci.com/deyvisrf/QAChallenge)
+[![Build Status](https://travis-ci.com/deyvisrf/QAChallenge.svg?branch=main)](https://travis-ci.com/deyvisrf/QAChallenge) [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
 # QAChallenge - Zé Delivery
 
